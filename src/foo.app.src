@@ -1,0 +1,15 @@
+{application, foo,
+    [
+        {description, "test"},
+        {vsn, "1"},
+        {modules, [
+            foo_app,
+            foo_sup,
+            foo_server
+        ]},
+        {registered, []},
+        {applications, [kernel, stdlib, compiler, syntax_tools]},
+        {mod, {foo_app, []}},
+        {env, []}
+    ]
+}
