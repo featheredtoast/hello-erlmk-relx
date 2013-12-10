@@ -1,4 +1,4 @@
-{application, foo_app,
+{application, foo,
     [
         {description, "test"},
         {vsn, "1.0"},

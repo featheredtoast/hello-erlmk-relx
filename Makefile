@@ -1,4 +1,4 @@
-PROJECT = foo_app
+PROJECT = foo
 
 .PHONY: release clean-release
 
