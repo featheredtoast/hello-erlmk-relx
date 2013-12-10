@@ -3,7 +3,7 @@ PROJECT = foo
 .PHONY: release clean-release
 
 release: clean-release all
-	relx -o rel/$(PROJECT)
+	relx -V3 -o rel/$(PROJECT)
 
 clean-release: 
 	rm -rf rel/$(PROJECT)
