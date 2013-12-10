@@ -7,7 +7,7 @@
             foo_sup,
             foo_server
         ]},
-        {registered, [foo_app]},
+        {registered, []},
         {applications, [kernel, stdlib]},
         {mod, {foo_app, []}},
         {env, []}
