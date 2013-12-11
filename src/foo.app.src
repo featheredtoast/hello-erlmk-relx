@@ -8,7 +8,7 @@
             foo_server
         ]},
         {registered, []},
-        {applications, [kernel, stdlib]},
+        {applications, [kernel, stdlib, lager]},
         {mod, {foo_app, []}},
         {env, []}
     ]

@@ -1,5 +1,9 @@
 PROJECT = foo
 
+DEPS = lager
+dep_lager = https://github.com/basho/lager.git
+
+
 .PHONY: release clean-release
 
 release: clean-release all
