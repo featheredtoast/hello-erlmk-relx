@@ -1,5 +1,7 @@
 PROJECT = foo
 
+ERLC_OPTS = +debug_info +'{parse_transform,lager_transform}'
+
 DEPS = lager
 dep_lager = https://github.com/basho/lager.git
 
